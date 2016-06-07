@@ -44,7 +44,7 @@
             </a>
           </li-->
           
-          <li class="dropdown dropdown-fw dropdown-mega">
+          <li class="dropdown dropdown-fw dropdown-mega active">
             <a class="dropdown-toggle" href="adquisiciones.php" aria-expanded="false"
             data-animation="fade" role="button">Adquisiciones </a>
           </li>

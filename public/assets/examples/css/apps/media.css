@@ -104,7 +104,7 @@
   width: 100%;
 }
 .app-media .media-list.is-list .media-item {
-  position: relative;
+  /* position: relative; */
   padding: 20px 30px;
   white-space: nowrap;
 }
@@ -131,10 +131,19 @@
   margin-right: 30px;
 }
 .app-media .media-list.is-list .image-wrap {
-  width: 140px;
-  height: 100px;
+  width: 86px;
+  height: 86px;
   margin-right: 20px;
   font-size: 0;
+}
+
+.app-media .media-list.is-list .image-wrap.icon-company{
+      position: relative;
+    display: inline-block;
+    padding: 2px;
+    background: white none;
+    border: 1px solid #dedede;
+    line-height: 0;
 }
 .app-media .media-list.is-list .image-wrap:before {
   display: inline-block;
@@ -151,6 +160,10 @@
   white-space: nowrap;
   color: #2860a3;
   font-size: 17px;
+}
+.app-media .media-list.is-list .info-wrap.share {
+  float:right;
+  text-align: right;
 }
 .app-media .media-list.is-list .dropdown {
   display: none;

@@ -11,8 +11,8 @@
   <link rel="shortcut icon" href="assets/images/favicon.ico">
   <!-- Stylesheets -->
   <link rel="stylesheet" href="global/css/bootstrap.min.css">
-  <link rel="stylesheet" href="global/css/bootstrap-extend.min.css">
-  <link rel="stylesheet" href="assets/css/site.min.css">
+  <link rel="stylesheet" href="global/css/bootstrap-extend.css">
+  <link rel="stylesheet" href="assets/css/site.css">
   <!-- Plugins -->
   <link rel="stylesheet" href="global/vendor/animsition/animsition.css">
   <link rel="stylesheet" href="global/vendor/asscrollable/asScrollable.css">
@@ -63,12 +63,12 @@
         
         <div class="clearfix"></div>
 
-        <form action="#" class="form-group form-horizontal form-material row">
+        
 
-          <div class="row">
+        
 
             <div class="panel">
-
+            <form action="#" class="form-group form-horizontal form-material row">
               <div class="panel-body">
 
                 <div class="col-md-3 col-xs-12 text-center" id="step1">
@@ -121,13 +121,13 @@
               </div>
 
             </div>
-
+            </form>
           </div>
 
-          </div>
+       
 
            
-    </form>
+   
 
         <div class="clearfix"></div>
 
@@ -159,35 +159,38 @@
     <!-- Media Content -->
     <div class="page-main">
       <!-- Media Content Header -->
-      <div class="page-header">
-        <h1 class="page-title">Resultados de Búsqueda</h1>
-        <div class="page-header-actions">
-         
-        </div>
-      </div>
+      <div class="blocks ">
+          <div class="page-header col-md-8 col-xs-12">
+              <h1 class="page-title">Resultados de Búsqueda</h1>
+              <div class="page-header-actions">
+
+              </div>
+          </div>
+          <div class="page-content-actions col-md-4 col-xs-12">
+
+              <div class="pull-right filter">
+                  <span>Filtrar por</span>
+                  <div class="dropdown">
+                      <button type="button" class="btn btn-pure dropdown-toggle" data-toggle="dropdown"
+                              aria-expanded="false">
+                          Todas
+                          <span class="icon md-chevron-down" aria-hidden="true"></span>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-right animation-scale-up animation-top-right animation-duration-250"
+                          role="menu">
+                          <li><a href="javascript:void(0)">Agregadas Recientemente</a></li>
+                          <li><a href="javascript:void(0)">Mas populares</a></li>
+                          <li><a href="javascript:void(0)">Mejor Ranking</a></li>
+                          <li><a href="javascript:void(0)">Rubro</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>    
       <!-- Media Content -->
       <div class="page-content page-content-table">
         <!-- Actions -->
-        <div class="page-content-actions">
-          
-          <div class="pull-right filter">
-              <span>Filtrar por</span>
-              <div class="dropdown">
-                <button type="button" class="btn btn-pure dropdown-toggle" data-toggle="dropdown"
-                aria-expanded="false">
-                  Todas
-                  <span class="icon md-chevron-down" aria-hidden="true"></span>
-                </button>
-                <ul class="dropdown-menu dropdown-menu-right animation-scale-up animation-top-right animation-duration-250"
-                role="menu">
-                  <li><a href="javascript:void(0)">Agregadas Recientemente</a></li>
-                  <li><a href="javascript:void(0)">Mas populares</a></li>
-                  <li><a href="javascript:void(0)">Mejor Ranking</a></li>
-                  <li><a href="javascript:void(0)">Rubro</a></li>
-                </ul>
-              </div>
-            </div>
-        </div>
+        
         <!-- Media -->
         <div class="media-list is-list padding-bottom-50">
           <ul class="blocks blocks-100 blocks-xlg-4 blocks-lg-3 blocks-md-3 blocks-ms-2 blocks-xs-2"
@@ -198,10 +201,9 @@
             <li>
               <div class="media-item" data-toggle="slidePanel" data-url="panel-adquisiciones.tpl">
                 
-                <div class="image-wrap">
+                <div class="image-wrap icon-company">
         
-                  <img class="image img-rounded" src="global/photos/placeholder.png"
-                  alt="...">
+                  <img class="image img-rounded" src="" alt="...">
           
                 </div>
         
@@ -219,7 +221,11 @@
                     10 hrs - 20 mins
                   </div>
                   
-                  <div class="btn-group" style="margin-top: 0px;">
+                  
+                  
+                </div>
+                  <div class="info-wrap  share">
+                      <div class="btn-group" style="margin-top: 0px;">
                       <div class="btn-group" role="group">
                         <button type="button" class="btn btn-icon btn-pure" data-toggle="button">
                           <i class="icon md-favorite-outline text" aria-hidden="true"></i>
@@ -233,9 +239,8 @@
 
                       </div>
                   </div>
-                  
-                      </div>
-                    </div>
+                  </div>
+                </div>
             </li>
 
             <?php } ?>
