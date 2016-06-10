@@ -91,7 +91,7 @@
           <li class="dropdown">
             <a href="https://www.google.com" title="Registers" aria-expanded="false"
             data-animation="scale-up" role="button" data-target="#exampleMultipleOne" data-toggle="modal">
-             ¡Regístrate Gratis!
+             Regístrate Gratis!
             </a>
             <!--ul class="dropdown-menu" role="menu">
               <li role="presentation">
@@ -251,7 +251,7 @@
                           <div class="media-meta">
                             <time datetime="2015-06-16T18:38:40+08:00">AHORA MISMO</time>
                           </div>
-                          <div class="media-detail">Número de opciones y ofertas que hay para tí</div>
+                          <div class="media-detail">Número de opciones y ofertas que hay para tí­</div>
                         </div>
                       </div>
                     </a>

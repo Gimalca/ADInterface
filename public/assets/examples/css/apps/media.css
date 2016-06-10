@@ -16,7 +16,7 @@
   padding-left: 5px;
   margin-bottom: 0;
 }
-.app-media .time {
+.app-media {
   color: #9e9e9e;
 }
 .app-media .media-item .checkbox-custom label::before {
@@ -139,11 +139,11 @@
 
 .app-media .media-list.is-list .image-wrap.icon-company{
       position: relative;
-    display: inline-block;
-    padding: 2px;
-    background: white none;
-    border: 1px solid #dedede;
-    line-height: 0;
+      display: inline-block;
+      padding: 2px;
+      background: white none;
+      border: 1px solid #dedede;
+      line-height: 0;
 }
 .app-media .media-list.is-list .image-wrap:before {
   display: inline-block;
@@ -164,6 +164,11 @@
 .app-media .media-list.is-list .info-wrap.share {
   float:right;
   text-align: right;
+}
+
+.info-wrap.share .icon{
+  font-size:20px;
+  color: #2db870;
 }
 .app-media .media-list.is-list .dropdown {
   display: none;

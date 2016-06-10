@@ -1,15 +1,14 @@
 [class^="md-"],
 [class*=" md-"] {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   font-family: "Material-Design-Iconic-Font";
   font-style: normal;
   font-weight: normal;
   -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-       -o-transform: translate(0, 0);
-          transform: translate(0, 0);
-
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
   text-rendering: auto;
   speak: none;
   -webkit-font-smoothing: antialiased;

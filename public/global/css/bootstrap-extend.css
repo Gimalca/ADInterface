@@ -3859,7 +3859,7 @@ opacity:.4
 	border-bottom: 0
 }
 .list-group .media .media-left, .list-group .media .pull-left {
-	padding-right: 20px
+	padding-right: 10px;
 }
 .list-group .media .media-right, .list-group .media .pull-right {
 	padding-left: 20px
@@ -4438,7 +4438,7 @@ th {
 	font-weight: 400
 }
 b, strong {
-	font-weight: 500
+	font-weight: 500;
 }
 optgroup {
 	font-weight: 500
