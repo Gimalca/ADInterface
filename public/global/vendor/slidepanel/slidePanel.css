@@ -114,7 +114,7 @@
   list-style: none;
 }
 .slidePanel-actions .btn {
-  line-height: 33px;
+  /* line-height: 33px; */
 }
 .slidePanel-action {
   border: 1px solid transparent;
@@ -145,9 +145,11 @@
 }
 .slidePanel-inner {
   padding: 0 30px;
+  position: relative;
+  display: block;
 }
 .slidePanel-inner-section {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
   border-bottom: 1px solid #e0e0e0;
 }

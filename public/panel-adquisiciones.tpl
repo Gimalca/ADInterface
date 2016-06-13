@@ -1,22 +1,34 @@
 <header class="slidePanel-header overlay">
   <div class="overlay-top overlay-panel overlay-background">
+      
     <div class="slidePanel-actions btn-group btn-group-flat" aria-label="actions" role="group">
       <button type="button" class="btn btn-pure btn-inverse slidePanel-close icon md-close"
       aria-hidden="true"></button>
     </div>
-    <h4>Nombre o Titulo</h4>
-    <h6>Ubicado en: Caracas, Venezuela</h6>
+      <div class="image-wrap icon-company col-md-2">
 
-          <button type="button" data-target="#examplePositionCenter" data-toggle="modal" class="btn btn-sm btn-icon btn-warning btn-round" data-toggle="tooltip"
-            data-original-title="Edit">
-            <i class="icon md-assignment-o" aria-hidden="true"></i>
-          </button>
+          <img class="image img-rounded" src="assets/images/logos/gimalca-logo.png" alt="...">
+
+      </div> 
+      <div class="hd-company-preview col-md-9">
+          <h3>British American Tobacco C.A.</h3>
+          <h6>Ubicado en: Caracas, Venezuela</h6>
+
+         
+          <a href="javascript:void(0)" data-target="#examplePositionCenter" data-toggle="modal" class="" data-toggle="tooltip" data-original-title="Edit">
+            <i class="icon md-shield-check icon-certificate" aria-hidden="true" style=""></i>
+          </a>
+         
+         
+      </div>  
+    
         
   </div>
 </header>
 <div class="slidePanel-inner">
   <section class="slidePanel-inner-section">
     <div class="media-header">
+       
       <div class="tags">
         Rubro:
         <a href="#" role="button">IT</a>
@@ -31,8 +43,96 @@
         </div>
       </div>
     </div>
+       <div class="forum-header rigth">
+           
+            <span class="name">Adquición finalazia en: </span>
+            <span class="time"> 4 días</span>
+        </div>
     <div class="media-content">
-      <p class="text-center">Esto es la descripción de lo que necesita la empresa que publicó. </p>
+        <h4> Compra de Computadores e Impresoras </h4>
+        <p class="text-left">
+          Compra de Computadores e Impresoras solicitadas por distintos departamento de la empresa, Insumos computacional destinados a oficina Planta central. sol. de pedido n 1971-79-1266
+            
+            
+        </p>
+        <div class="example table-responsive">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                      
+                        <th>Cod</th>
+                        <th>Descripcion</th>
+                        <th>Cantidad</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                     
+                        <td>43211508</td>
+                        <td>
+                        UPS Cito o similar 500 va 250w. Indicar monto mínimo de despacho	
+                        </td>
+                        <td>3</td>
+                      </tr>
+                      <tr>
+                       
+                        <td>43211508</td>
+                        <td>
+                         gear 500 HDD RAM INTEL INSIDE (o similar) pc.
+                        </td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                       
+                        <td>43211508</td>
+                        <td>
+                         Computador gear 500 HDD 4 GB Ram (gear, Hp o similar).
+                        </td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                       
+                        <td>43211508</td>
+                        <td>
+                         computador I core 3 500 HDD 4GB Ram (gear, Hp o similar).
+                        </td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                       
+                        <td>43211508</td>
+                        <td>
+                          Teclado inalambrico
+                        </td>
+                        <td>3</td>
+                      </tr>
+                      <tr>
+                       
+                        <td>43211508</td>
+                        <td>
+                          Pantalla led 20 AOC o similar. 
+                        </td>
+                        <td>2</td>
+                      </tr>
+                      <tr>
+                       
+                        <td>43211508</td>
+                        <td>
+                         Mouse inalambrico. 
+                        </td>
+                        <td>3</td>
+                      </tr>
+                      <tr>
+                       
+                        <td>43211508</td>
+                        <td>
+                        tarjeta wifi interna tp link o equivalente. 
+                        </td>
+                        <td>6</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
       <br>
       <div class="text-center">
             <button type="button" class="btn btn-warning waves-effect waves-light" data-target="#exampleMultipleOne" data-toggle="modal">
@@ -41,6 +141,7 @@
             <button type="button" class="btn btn-info waves-effect waves-light" data-target="#exampleMultipleOne" data-toggle="modal">
               <span><i class="icon md-check" aria-hidden="true"></i>Postular Adquisición</span>
             </button>
+           
           </div>
     </div>
   </section>
